@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites>
+  <testsuite errors="0" failures="1" hostname="Bayos-iMac.local" id="0" name="CarTests" package="" tests="2" time="1.538" timestamp="2009-07-07T09:45:43">
+      <properties />
+
+      <testcase classname="CarTests" name="testSomething" time="0.996" />
+
+      <testcase classname="CarTests" name="testRelationship" time="0.541">
+          <failure message="expected:&lt;3&gt; but was:&lt;4&gt;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: expected:&lt;3&gt; but was:&lt;4&gt;
+	at junit.framework.Assert$assertEquals.callCurrent(Unknown Source)
+	at CarTests.testRelationship(CarTests.groovy:51)
+	at _GrailsTest_groovy$_run_closure4.doCall(_GrailsTest_groovy:202)
+	at _GrailsTest_groovy$_run_closure2.doCall(_GrailsTest_groovy:146)
+	at _GrailsTest_groovy$_run_closure1_closure19.doCall(_GrailsTest_groovy:112)
+	at _GrailsTest_groovy$_run_closure1.doCall(_GrailsTest_groovy:95)
+	at TestApp$_run_closure1.doCall(TestApp.groovy:66)
+	at gant.Gant$_dispatch_closure4.doCall(Gant.groovy:324)
+	at gant.Gant$_dispatch_closure6.doCall(Gant.groovy:334)
+	at gant.Gant$_dispatch_closure6.doCall(Gant.groovy)
+	at gant.Gant.withBuildListeners(Gant.groovy:344)
+	at gant.Gant.this$2$withBuildListeners(Gant.groovy)
+	at gant.Gant$this$2$withBuildListeners.callCurrent(Unknown Source)
+	at gant.Gant.dispatch(Gant.groovy:334)
+	at gant.Gant.this$2$dispatch(Gant.groovy)
+	at gant.Gant.invokeMethod(Gant.groovy)
+	at gant.Gant.processTargets(Gant.groovy:495)
+	at gant.Gant.processTargets(Gant.groovy:480)
+</failure>
+
+      </testcase>
+
+      <system-out><![CDATA[--Output from testSomething--
+--Output from testRelationship--
+]]></system-out>
+
+      <system-err><![CDATA[--Output from testSomething--
+--Output from testRelationship--
+]]></system-err>
+
+  </testsuite>
+</testsuites>

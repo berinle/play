@@ -1,0 +1,35 @@
+Testsuite: CarTests
+Tests run: 2, Failures: 1, Errors: 0, Time elapsed: 1.538 sec
+------------- Standard Output ---------------
+--Output from testSomething--
+--Output from testRelationship--
+------------- ---------------- ---------------
+------------- Standard Error -----------------
+--Output from testSomething--
+--Output from testRelationship--
+------------- ---------------- ---------------
+
+Testcase: testSomething took 0.996 sec
+Testcase: testRelationship took 0.541 sec
+	FAILED
+expected:<3> but was:<4>
+junit.framework.AssertionFailedError: expected:<3> but was:<4>
+	at junit.framework.Assert$assertEquals.callCurrent(Unknown Source)
+	at CarTests.testRelationship(CarTests.groovy:51)
+	at _GrailsTest_groovy$_run_closure4.doCall(_GrailsTest_groovy:202)
+	at _GrailsTest_groovy$_run_closure2.doCall(_GrailsTest_groovy:146)
+	at _GrailsTest_groovy$_run_closure1_closure19.doCall(_GrailsTest_groovy:112)
+	at _GrailsTest_groovy$_run_closure1.doCall(_GrailsTest_groovy:95)
+	at TestApp$_run_closure1.doCall(TestApp.groovy:66)
+	at gant.Gant$_dispatch_closure4.doCall(Gant.groovy:324)
+	at gant.Gant$_dispatch_closure6.doCall(Gant.groovy:334)
+	at gant.Gant$_dispatch_closure6.doCall(Gant.groovy)
+	at gant.Gant.withBuildListeners(Gant.groovy:344)
+	at gant.Gant.this$2$withBuildListeners(Gant.groovy)
+	at gant.Gant$this$2$withBuildListeners.callCurrent(Unknown Source)
+	at gant.Gant.dispatch(Gant.groovy:334)
+	at gant.Gant.this$2$dispatch(Gant.groovy)
+	at gant.Gant.invokeMethod(Gant.groovy)
+	at gant.Gant.processTargets(Gant.groovy:495)
+	at gant.Gant.processTargets(Gant.groovy:480)
+
